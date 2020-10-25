@@ -1,0 +1,432 @@
+#one .nav-link
+{
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: color 0.9s;
+}
+#one .nav-link a:hover
+{
+     color: #e65f78;
+     
+}
+#one .navbar-nav a:hover
+{
+    transition: color 0.9s;
+
+}
+#one .navbar-nav a:hover
+{
+    color: #e65f78 !important;
+}
+ /*#one .overlay {
+
+    height: 100%;
+    width: 100%;
+
+background-color: rgba(0, 0, 0, 0.7) !important;
+}
+#one .carousel-item
+{
+    height: 100vh;
+}*/
+#one .home .carousel-caption
+{
+    padding-bottom: 350px;
+}
+#one .home .carousel-caption h1
+{
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+#one .scroll
+{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: move 0.5s alternate infinite;
+}
+.animate
+{
+  background-color: white ;
+
+}
+.black
+{
+    color: black !important;
+}
+.stiky
+{
+  top: 0px;
+  z-index: 555;
+  
+
+}
+
+#one .scroll i
+{
+    width: 30px;
+    height: 60px;
+    border: 2px solid #fff;
+    display: inline-block;
+    border-radius: 16px;
+}
+#one .scroll i::after
+{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left:12px ;
+    background-color: #fff;
+    width: 7px ;
+    height: 7px;
+    border-radius: 50%;
+    
+}
+@keyframes move
+{
+ 0%{bottom: 20px;}
+ 25%{bottom: 35px;}
+ 50%{bottom: 40px;}
+ 75%{bottom: 45px;}
+ 100%{bottom: 50px;}
+}
+ .About .title h3
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.About .title h2
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #f1f1f1;
+    letter-spacing: 13px;
+}
+.About .header .line
+{
+    height: 1px ;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+    transition: width 0.9s;
+}
+.About .header:hover .line
+{
+    width: 75px;
+    
+}
+
+
+
+
+
+.team
+{
+    padding: 100px 0px;
+}
+.team .title h3
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.team .title h2
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #f1f1f1;
+    letter-spacing: 13px;
+}
+
+.team .work-item
+{
+    position: relative;
+    overflow: hidden;
+
+}
+.team .work-item .overlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    ;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.work-item:hover img
+{
+    transform: scale(1.3);
+
+}
+.work-item:hover .overlay
+{
+    opacity: 1;
+}
+.team .details
+{
+    position: relative;
+    top: 99%;
+    transition: top 0.5s;
+
+}
+.work-item :hover .details
+{
+    top: 0px;
+}
+.work-item img
+{
+    transition: transform 0.5s;
+}
+
+
+
+.blog
+{
+    padding: 100px;
+}
+.blog .title h3
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.blog .title h2
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #f1f1f1;
+    letter-spacing: 13px;
+}
+.blog .header .line
+{
+    height: 1px ;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+    transition: width 0.9s;
+}
+.blog .header:hover .line
+{
+    width: 75px;
+    
+}
+.blog .header p
+{
+    margin-bottom: 70px;
+}
+
+
+
+
+.service
+{
+    padding: 100px;
+}
+.service .title h3
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.service .title h2
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #f1f1f1;
+    letter-spacing: 13px;
+}
+.service .header .line
+{
+    height: 1px ;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+    transition: width 0.9s;
+}
+.service .header:hover .line
+{
+    width: 75px;
+    
+}
+
+.service .service-single .icon
+{
+    font-size: 16px;
+    color: #e65f78 !important;
+    font-weight: normal !important;
+    float: left;
+    margin-right: 20px;
+
+}
+.service .service-single .service-text
+{
+    float: left;
+}
+
+.clr
+{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact .title h3
+{
+    position: absolute;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+    
+}
+
+.contact .title h2
+{
+    font-size: 60px;
+    font-weight: 900;
+    color: #f1f1f1;
+    letter-spacing: 13px;
+}
+.contact .header .line
+{
+    height: 1px ;
+    width: 50px;
+    background-color: black;
+    margin: auto;
+    transition: width 0.9s;
+}
+.contact .header:hover .line
+{
+    width: 75px;
+    
+}
+.contact .contact-form-holder input
+{
+    padding: 14px 18px;
+    margin-bottom: 20px;
+}
+.contact .contact-form-holder textarea
+{
+    padding: 14px 18px;
+    margin-bottom: 20px;
+
+}
+.contact .contact-form-holder button
+{
+    padding: 15px 30px;
+}
+.contact .contact-content>.icon
+{
+    font-size: 30px;
+    color: #e65f78 !important;
+    font-weight: normal !important;
+    float: left;
+    margin-right: 20px;
+
+
+}
+.contact .contact-content
+{
+    border-bottom: 1px ghostwhite solid;
+    padding: 25px 0px;
+}
+.contact .contact-content:hover h4
+{
+    color: #e65f78;
+}
+
+.contact .contact-content .contact-text
+{
+    float: left;
+}
+.clr
+{
+    clear: both;
+}
+
+
+
+
+
+footer
+{
+    background: #222;
+    background-image: url(../img/dotted-map.png);
+    background-size: contain;
+
+}
+footer .widget .tags a
+{
+    text-decoration: none !important;
+    border: 1px gray solid;
+    margin-right: 8px;
+}
+.footer-copyright{ 
+    background: #1a1a1a;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: color 0.5s;
+}
+.footer-copyright a:hover
+{
+    color: #e65f78 !important;
+}
+
+.swipUp
+{
+    display: inline-block;
+    cursor: pointer;
+    z-index: 333;
+    text-decoration: none;
+    transition: 3s;
+    color: gray;
+    margin-bottom: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swipUp i{
+font-size: 25px;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+line-height: 1.3;
+background-color: #e65f78;
+font-size: 30px;
+color: white;
+}
+
